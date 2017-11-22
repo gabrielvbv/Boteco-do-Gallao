@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5, h6 {
+    color: white; /*#B6FF00;*/
+    font-family: 'Permanent Marker', 'Pacifico';
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+}
+
+#imgCuba {
+    width: 60%;
+    height: 60%;
+}
+
+#imgCoca {
+    padding-top: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.recibo {
+    width: 75%;
+    background-color: rgb(255, 251, 196);
+    border: 1px solid black;
+}

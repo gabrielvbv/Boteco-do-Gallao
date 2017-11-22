@@ -1,0 +1,77 @@
+/*body {
+    background-color: #222222;
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+}*/
+
+.escolheDrink {
+    
+}
+
+.opcoesDrink {
+    list-style: none;
+    width: 60%;
+    margin: auto;
+}
+
+.itemDrink {
+    /*border: 1px solid black;*/
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+}
+
+.lblItem {
+    border: 5px solid #B6FF00;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px white, 0px 0px 5px 2px white inset;
+    margin: 20px 20px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lblDisabled {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px rgb(167, 165, 165), 0px 0px 5px 2px rgb(167, 165, 165) inset;
+}
+
+.btnDisabled {
+    opacity: 0.5;
+}
+
+input[type='text'] {
+    font-family: "digital display tfb", Times;
+    font-size: 3em;
+    text-align: center;
+    background-color: black;
+    color: #B6FF00;
+}
+
+input[type='text']:focus {
+    border-color: #B6FF00;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(182, 255, 0, .6);
+}
+
+input[type='text']:read-only {
+    background-color: rgb(66, 66, 66);
+    color: rgb(167, 165, 165);
+}
+
+input[type='text']:read-only:focus {
+    border-color: rgb(167, 165, 165);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(167, 165, 165);
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+.menuDiv {
+    text-align: center;
+}

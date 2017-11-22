@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boteco do Gallão</title>
+        <link href="css/neon.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="metro/css/metro.min.css" rel="stylesheet" >
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="metro/js/metro.min.js"></script>
+        <style>
+            body {
+                background-color: #222222;
+                background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+            }    
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <p class="tituloMenu"><a>Monte o seu drink!</a></p>
+        </div>
+        <div class="escolheDrink">
+            <table class="opcoesDrink">
+                <tr>
+                    <td class="itemDrink">
+                        <div class="lblItem" id="lblCoca">
+                            <a href="#" role="button" class="btn" id="btnCoca">
+                                <img src="img/coca2.jpg">
+                            </a><br>
+                            <div>
+                                <input type="text" class="form-control input-lg" id="inputCoca" size="3" maxlength="2">
+                            </div>
+                        </div>
+                    </td>
+                    <td class="itemDrink">
+                        <div class="lblItem lblDisabled" id="lblPepsi">
+                            <a href="#" role="button" class="btn btnDisabled" id="btnPepsi">
+                                <img src="img/pepsi.jpg">
+                            </a><br>
+                            <div>
+                                <input type="text" class="form-control input-lg" id="inputPepsi" size="3" maxlength="2" readonly>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="itemDrink">
+                        <div class="lblItem">
+                            <img src="img/rum2.jpg"><br>
+                            <div>
+                                <input type="text" class="form-control input-lg" size="3" maxlength="2" id="inputRum">
+                            </div>
+                        </div>
+                    </td>
+                    <td class="itemDrink">
+                        <div class="lblItem">
+                            <img src="img/gelo.jpg"><br>
+                            <div>
+                                <input type="text" class="form-control input-lg" size="3" maxlength="2" id="inputGelo">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="menuDiv">
+                <p class="tituloMenu"><a href="final.html" role="button" onclick="verificaDrink()">Compre!</a></p>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
+
+<!--
+
+            <link href="metro/css/metro-icons.css" rel="stylesheet">
+        <link href="metro/css/metro-responsive.css" rel="stylesheet">
+        <link href="metro/css/metro-schemes.css" rel="stylesheet">
+
+<div class="slider"
+    data-target="#slider_input"
+    data-role="slider"
+    data-show-hint="true"
+    data-vertical="true"
+    data-hint-position="left"
+    data-position="50"
+    data-permanent-hint="true">
+</div>
+
+
+
+<div class="slider permanent-hint hint-bottom"
+    data-role="slider"
+    data-show-hint="true"
+    data-permanent-hint="true"
+    data-hint-position="bottom" data-position="35">
+    <div class="slider-backside"></div>
+    <div class="complete" style="width: 66px;"></div>
+    <div class="buffer" style="width: 0%;"></div>
+    <a class="marker" style="left: 66px;"></a>
+    <span class="slider-hint" style="left: 57px;">35</span>
+</div>
+
+    <div class="input-control text">
+    <input id="slider_input" value="0">
+</div>-->
